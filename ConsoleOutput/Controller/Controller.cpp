@@ -7,11 +7,22 @@
 //
 
 #include "Headers/Controller.hpp"
+#include <iostream>
 
 Controller::Controller(){
-    
+    this->myName = "Derek";
 }
 
 void Controller::start(){
+    std::cout << this->myName << std::endl;
+    
+    for(int i = 13; i < 32; i++){
+        std::cout << i << std::endl;
+    }
+    
+    std::string *myNamePointer = &this->myName;
+    std::cout << myNamePointer << std::endl;
+    
+    std::cout << "i" << " like " << "cheese" << std::endl;
     
 }

@@ -10,6 +10,7 @@
 #define Controller_hpp
 
 #include <stdio.h>
+#include <string>
 
 class Controller{
     
@@ -17,7 +18,7 @@ class Controller{
         Controller();
         void start();
     private:
-        
+        std::string myName;
     
 };
 
