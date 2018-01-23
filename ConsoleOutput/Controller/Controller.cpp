@@ -20,8 +20,7 @@ void Controller::start(){
         std::cout << i << std::endl;
     }
     
-    std::string *myNamePointer = &this->myName;
-    std::cout << myNamePointer << std::endl;
+    std::cout << &myName << std::endl;
     
     std::cout << "i" << " like " << "cheese" << std::endl;
     
